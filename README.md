@@ -15,8 +15,8 @@ This year I'm a **VP of Engineering at [Ataccama](https://www.ataccama.com/)**. 
 | 3 | :star: | :star: | [day3.py](day3.py) |
 | 4 | :star: | :star: | [day4.py](day4.py) |
 | 5 | :star: | :star: | [day5.py](day5.py) |
-| 6 | | | |
-| 7 | | | |
+| 6 | :star: | :star: | [day6.py](day6.py) |
+| 7 | :star: | :star: | [day7.py](day7.py) |
 | 8 | | | |
 | 9 | | | |
 | 10 | | | |
