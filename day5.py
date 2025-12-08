@@ -7,6 +7,7 @@ from aoc import load_lines
 @dataclass
 class IDRange:
     """Fresh ingredients range."""
+
     start: int
     end: int
 
