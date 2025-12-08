@@ -81,7 +81,7 @@ def part2(manifold: Manifold) -> int:
 
 
 if __name__ == "__main__":
-    input_lines = load_lines(7, example=False)
+    input_lines = load_lines(7)
     manifold = parse_manifold(input_lines)
     print(part1(manifold))
     print(part2(manifold))

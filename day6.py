@@ -70,6 +70,6 @@ def part2(lines: list[str]) -> int:
 
 
 if __name__ == "__main__":
-    input_lines = load_lines(6, example=False)
+    input_lines = load_lines(6)
     print(part1(input_lines))
     print(part2(input_lines))
