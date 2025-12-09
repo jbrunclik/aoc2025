@@ -13,9 +13,11 @@ def load_input(day: int, example: bool = False) -> str:
     Returns:
         The input data as a string (without trailing newline)
     """
-    suffix = "_example" if example else ""
-    filename = f"day{day}{suffix}.txt"
-    return Path(filename).read_text().strip()
+    if example:
+        filepath = Path("examples") / f"day{day}.txt"
+    else:
+        filepath = Path("data") / f"day{day}.txt"
+    return filepath.read_text().strip()
 
 
 def load_lines(day: int, example: bool = False) -> list[str]:
