@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Day 7: Tachyon manifold."""
+
 from collections import Counter
 from dataclasses import dataclass
 from enum import Enum

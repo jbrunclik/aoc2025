@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Day 1: Dial Wheel."""
+
 from enum import Enum
 from aoc import load_lines
 

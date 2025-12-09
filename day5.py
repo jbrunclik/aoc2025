@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Day 5: Fresh ingredients."""
+
 from dataclasses import dataclass
 from aoc import load_lines
 
@@ -41,7 +42,7 @@ def part1(fresh: list[IDRange], inventory: list[int]) -> int:
 
 def part2(fresh: list[IDRange]) -> int:
     """Count total fresh IDs."""
-    deduplicated = []
+    deduplicated: list[IDRange] = []
     for id_range in sorted(fresh, key=lambda r: r.start):
         if not deduplicated:
             deduplicated.append(id_range)

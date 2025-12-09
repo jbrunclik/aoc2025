@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Day 9: Largest rectangles."""
 
-
 from aoc import load_lines
 
 from dataclasses import dataclass

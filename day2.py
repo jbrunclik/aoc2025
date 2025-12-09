@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Day 2: Invalid IDs."""
+
 from aoc import load_lines
 
 

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Day 4: Rolls of paper"""
+
 from aoc import load_lines
 
 ACCESSIBLE_THRESHOLD = 4

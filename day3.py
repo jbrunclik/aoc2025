@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Day 3: Battery Joltage"""
+
 from aoc import load_lines
 
 
@@ -27,7 +28,7 @@ def part2(instructions: list[str]) -> int:
     for battery in instructions:
         num_remove = len(battery) - 12
 
-        largest_number = []
+        largest_number: list[str] = []
         for digit in battery:
             while num_remove > 0 and largest_number and largest_number[-1] < digit:
                 largest_number.pop()

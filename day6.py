@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Day 6: Cephalopod math."""
+
 from dataclasses import dataclass
 from enum import Enum
 from math import prod
