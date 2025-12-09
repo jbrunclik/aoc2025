@@ -27,18 +27,18 @@ This year I'm a **VP of Engineering at [Ataccama](https://www.ataccama.com/)**. 
 
 ```
 aoc2025/
-├── aoc.py           # Common utilities (input loading)
-├── day*.py          # Puzzle solutions
-├── day*.txt         # Puzzle inputs
-└── day*_example.txt # Example inputs
+├── aoc.py            # Common utilities (input loading)
+├── day*.py           # Puzzle solutions
+├── data/day*.txt     # Puzzle inputs
+├── examples/day*.txt # Example inputs
+└── templates/        # Scaffolding templates
 ```
 
 ## Running Solutions
 
 ```bash
-# Set up virtual environment
-python3 -m venv venv
-source venv/bin/activate
+# Set up virtual environment and install tools
+make setup
 
 # Run a specific day
 python day1.py
