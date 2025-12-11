@@ -20,7 +20,7 @@ This year I'm a **VP of Engineering at [Ataccama](https://www.ataccama.com/)**. 
 | 8 | :star: | :star: | [day8.py](day8.py) |
 | 9 | :star: | :star: | [day9.py](day9.py) |
 | 10 | :star: | :robot:¹ | [day10.py](day10.py) |
-| 11 | | | |
+| 11 | :star: | :star: | [day11.py](day11.py) |
 | 12 | | | |
 
 ¹ Solved with help from Claude Code (BFS was too slow, needed ILP approach)
